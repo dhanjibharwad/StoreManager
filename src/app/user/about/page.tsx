@@ -41,11 +41,11 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
 
-      <section className="relative bg-gradient-to-r from-gray-900 to-gray-600 text-white">
+      <section className="relative bg-[#4A70A9] text-white">
         {/* Decorative shapes */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-0 left-1/4 w-72 h-72 bg-gray-700 opacity-30 rounded-full animate-pulse"></div>
-          <div className="absolute bottom-0 right-1/3 w-96 h-96 bg-gray-900 opacity-20 rounded-full animate-pulse"></div>
+          <div className="absolute top-0 left-1/4 w-22 h-22 bg-gray-400 opacity-20 rounded-full animate-pulse"></div>
+          <div className="absolute bottom-0 right-1/3 w-26 h-26 bg-gray-400 opacity-20 rounded-full animate-pulse"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-6 py-32 text-center">
@@ -78,7 +78,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Story</h2>
+              <h2 className="mt-2 mb-4 text-3xl sm:text-3xl font-semibold tracking-wide drop-shadow-md font-serif text-gray-700">Our Story</h2>
               <p className="text-gray-600 mb-4">
                 Founded with a vision to bridge the gap between technology and customer satisfaction,
                 Store Manager has been at the forefront of providing comprehensive technical support solutions.
@@ -103,7 +103,7 @@ export default function AboutPage() {
       {/* Services Overview */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">How We Serve You</h2>
+          <h2 className="mb-6 text-3xl sm:text-3xl font-semibold tracking-wide drop-shadow-md font-serif text-gray-700 text-center">How We Serve You</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="group bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-transparent hover:border-gray-200">
               <div className="bg-gray-50 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-gray-800 transition-colors duration-300">
@@ -241,11 +241,11 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-20 bg-gradient-to-r from-gray-800 to-gray-600 text-white overflow-hidden">
+      <section className="relative py-20 bg-[#4A70A9] text-white overflow-hidden">
         {/* Decorative floating shapes */}
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 left-1/4 w-72 h-72 bg-gray-700 opacity-20 rounded-full"></div>
-          <div className="absolute bottom-0 right-1/3 w-96 h-96 bg-gray-900 opacity-15 rounded-full"></div>
+          <div className="absolute top-0 left-1/4 w-32 h-32 bg-gray-700 opacity-20 rounded-full"></div>
+          <div className="absolute bottom-0 right-1/3 w-36 h-36 bg-gray-900 opacity-15 rounded-full"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-6 text-center">

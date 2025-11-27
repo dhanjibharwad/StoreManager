@@ -31,7 +31,7 @@ const WorkFlowSection: React.FC<WorkFlowSectionProps> = ({ className = '' }) => 
   ];
 
   return (
-    <section className={`py-2 sm:py-4 lg:py-8 px-2 sm:px-4 lg:px-6 bg-white relative overflow-hidden ${className}`}>
+    <section className={`py-2 sm:py-4 lg:py-4 px-2 sm:px-4 lg:px-4 bg-white relative overflow-hidden ${className}`}>
 
       {/* Background decoration for mobile */}
       <div className="absolute inset-0 bg-white rounded-3xl"></div>
@@ -54,7 +54,7 @@ const WorkFlowSection: React.FC<WorkFlowSectionProps> = ({ className = '' }) => 
               </p>  
             </div>
             {/* CTA Button */}
-            <button className="bg-gray-900 hover:bg-gray-900 text-white font-semibold px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none">
+            <button className="bg-[#4A70A9] text-white font-semibold px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none">
               LEARN MORE
             </button>
           </div>

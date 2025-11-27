@@ -11,6 +11,7 @@ const features = [
 export default function HeroSection() {
     return (
         <section className="bg-gradient-to-b from-gray-50 to-white py-20 px-6">
+            
             <div className="max-w-7xl mx-auto">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
                     {/* Left Content */}
@@ -27,13 +28,13 @@ export default function HeroSection() {
                         </p>
 
                         <div className="flex flex-wrap gap-4 pt-2">
-                            <button className="bg-[#4A70A9] text-white px-10 py-3.5 rounded-full font-semibold transition-all shadow-lg hover:shadow-xl">
+                            <button className="cursor-pointer bg-[#4A70A9] text-white px-10 py-3.5 rounded-full font-semibold transition-all shadow-lg hover:shadow-xl">
                                 Start Now
                             </button>
-                            <button className="border-2 border-black text-black hover:bg-[#4A70A9] hover:text-white px-10 py-3.5 rounded-full font-semibold transition-all flex items-center gap-2">
+                            {/* <button className="border-2 border-black text-black hover:bg-[#4A70A9] hover:text-white px-10 py-3.5 rounded-full font-semibold transition-all flex items-center gap-2">
                                 <div className="w-5 h-5 border-2 border-current rounded-sm" />
                                 Explore Now
-                            </button>
+                            </button> */}
                         </div>
                     </div>
 

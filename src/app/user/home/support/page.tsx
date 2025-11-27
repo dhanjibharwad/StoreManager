@@ -14,7 +14,7 @@ const AppFeaturesPage: React.FC = () => {
   const leftFeatures = [
     {
       icon: (
-        <svg className="w-12 h-12 text-sky-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-12 h-12 text-[#4A70A9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
         </svg>
       ),
@@ -23,7 +23,7 @@ const AppFeaturesPage: React.FC = () => {
     },
     {
       icon: (
-        <svg className="w-12 h-12 text-sky-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-12 h-12 text-[#4A70A9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
         </svg>
       ),
@@ -32,7 +32,7 @@ const AppFeaturesPage: React.FC = () => {
     },
     {
       icon: (
-        <svg className="w-12 h-12 text-sky-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-12 h-12 text-[#4A70A9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
         </svg>
       ),
@@ -44,7 +44,7 @@ const AppFeaturesPage: React.FC = () => {
   const rightFeatures = [
     {
       icon: (
-        <svg className="w-12 h-12 text-sky-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-12 h-12 text-[#4A70A9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
         </svg>
@@ -54,7 +54,7 @@ const AppFeaturesPage: React.FC = () => {
     },
     {
       icon: (
-        <svg className="w-12 h-12 text-sky-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-12 h-12 text-[#4A70A9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
         </svg>
       ),
@@ -63,7 +63,7 @@ const AppFeaturesPage: React.FC = () => {
     },
     {
       icon: (
-        <svg className="w-12 h-12 text-sky-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-12 h-12 text-[#4A70A9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
         </svg>
       ),
@@ -110,7 +110,7 @@ const AppFeaturesPage: React.FC = () => {
                   {feature.icon}
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                  <h3 className="mt-2 text-xl sm:text-xl font-semibold tracking-wide drop-shadow-md font-serif text-gray-700">
                     {feature.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -125,11 +125,11 @@ const AppFeaturesPage: React.FC = () => {
           <div className="flex justify-center">
             <div className="relative">
               {/* Phone Frame */}
-              <div className="relative w-80 h-[600px] bg-white rounded-[3rem] shadow-2xl p-3 border-8 border-gray-800">
-                <div className="w-full h-full bg-gradient-to-br from-blue-50 to-purple-50 rounded-[2.5rem] overflow-hidden relative">
+              <div className="relative w-80 h-[600px] bg-white rounded-[3rem] shadow-2xl p-3 border-6 border-[#E2EBF6]">
+                <div className="w-full h-full bg-[#E2EBF6] rounded-[2.5rem] overflow-hidden relative">
                   {/* Logo */}
                   <div className="absolute top-6 left-6 z-20">
-                    <div className="text-2xl font-bold text-sky-500">Store Manager</div>
+                    <div className="text-2xl font-bold text-[#4A70A9]">Store Manager</div>
                     <div className="text-xs text-gray-500 mt-1">sign in | sign up</div>
                   </div>
 
@@ -182,15 +182,10 @@ const AppFeaturesPage: React.FC = () => {
                     <svg viewBox="0 0 300 150" className="w-full">
                       <path
                         d="M0,50 Q75,20 150,50 T300,50 L300,150 L0,150 Z"
-                        fill="#FF9B7F"
+                        fill="#4A70A9"
                         className="transition-all duration-1000"
                       />
                     </svg>
-                    <div className="absolute bottom-12 left-1/2 -translate-x-1/2 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center cursor-pointer hover:scale-110 transition-transform">
-                      <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                      </svg>
-                    </div>
                   </div>
 
                   {/* Dots Indicator */}
@@ -219,7 +214,7 @@ const AppFeaturesPage: React.FC = () => {
                   {feature.icon}
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                  <h3 className="mt-2 text-xl sm:text-xl font-semibold tracking-wide drop-shadow-md font-serif text-gray-700">
                     {feature.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed">

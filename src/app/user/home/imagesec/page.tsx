@@ -14,13 +14,10 @@ export default function ImageSectionPage() {
           </h1>
           <div className="text-gray-600 space-y-3 sm:space-y-4 text-sm sm:text-base md:text-lg">
             <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-              Most people like some nothing they used a life doing something they don't care much about. But you were a hero, we really look cool. Then we can still have some exciting times.
-            </p>
-            <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-              If we wanted to do something radical, like make a movie or whatever, we'd make it some exciting. It took a lot of the whole talk, something else would make it some exciting. It took a lot of creative work that would have been cool to try out.
-            </p>
-            <p className="mt-4 text-lg text-gray-700 leading-relaxed">
+              Most people like some nothing they used a life doing something they don't care much about. But you were a hero, we really look cool. Then we can still have some exciting times.<br/>
+               If we wanted to do something radical, like make a movie or whatever, we'd make it some exciting. It took a lot of the whole talk, something else would make it some exciting. It took a lot of creative work that would have been cool to try out.<br/>
               Anyway, we want the best for you, regardless of what your next level was like. It. We do focus on media talking about it, but we always try that can make it some even if not with us, even.
+
             </p>
           </div>
         </div>

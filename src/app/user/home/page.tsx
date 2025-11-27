@@ -4,7 +4,7 @@
 import Image from 'next/image';
 import BrandSlider from '../components/BrandSlider';
 import CardDetail from './services/page';
-import WorkflowPage from './newsec/page';
+// import WorkflowPage from './newsec/page';
 import Link from "next/link";
 import AppFeaturesPage from './support/page';
 import WallOfLove from './testimonial/page';
@@ -36,12 +36,12 @@ export default function UserHomePage() {
       <ScrollAnimatedSection className="py-16 bg-white" delay={100}>
         <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           {/* Left Image */}
-          <div className="relative w-full h-[400px] lg:h-[450px]">
+          <div className="relative w-full h-[400px] lg:h-[450px] overflow-hidden group">
             <Image
               src="https://colorlib.com/wp/wp-content/uploads/sites/2/elaadmin-dashboard-template.png" // put your image in public/images/
               alt="About Us Illustration"
               fill
-              className="object-contain"
+              className="object-contain transition-all duration-500 group-hover:scale-110 group-hover:brightness-110 group-hover:-translate-y-2 group-hover:shadow-2xl"
             />
           </div>
 
@@ -78,7 +78,89 @@ export default function UserHomePage() {
         <ImageSectionPage />
       </ScrollAnimatedSection>
 
-      <ScrollAnimatedSection delay={200}>
+       <ScrollAnimatedSection className="py-16 bg-white" delay={200}>
+        <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          {/* Left Image */}
+         <div className="relative w-full h-[400px] lg:h-[450px] overflow-hidden group">
+  <Image
+    src="https://static.vecteezy.com/system/resources/previews/001/447/112/non_2x/dashboard-ui-admin-panel-design-vector.jpg"
+    alt="About Us Illustration"
+    fill
+    className="object-contain transition-all duration-500 group-hover:scale-110 group-hover:brightness-110 group-hover:-translate-y-2 group-hover:shadow-2xl"
+  />
+</div>
+
+
+          {/* Right Content */}
+          <div className="text-left lg:pl-8">
+            <p className="text-[#4A70A9] text-xs sm:text-sm md:text-base font-semibold mb-3 sm:mb-4 uppercase tracking-wide">
+              OUR MISSION
+            </p>
+            {/* <h2 className="mt-2 text-3xl lg:text-4xl font-semibold text-gray-800 tracking-tight">
+  We&apos;re Best In Service Provider
+</h2> */}
+            <h2 className="mt-2 text-3xl sm:text-3xl font-semibold tracking-wide drop-shadow-md font-serif text-gray-700">
+              What our mission stands for
+            </h2>
+
+            <p className="mt-4 text-lg text-gray-700 leading-relaxed">
+              Their expertise lies in integrating technology, data, and strategy to improve customer satisfaction and
+              loyalty while driving business growth. With the right CRM service provider, companies can gain deeper insights
+              into customer behavior, automate workflows, and enhance collaboration across teams, ensuring that every customer
+              interaction adds value and strengthens long-term partnerships.
+            </p>
+
+            <Link href="/user/about">
+              <button className="mt-6 px-6 py-3 rounded-lg font-semibold text-white bg-[#4A70A9] shadow-lg hover:opacity-90 transition cursor-pointer">
+                Our Vision
+              </button>
+            </Link>
+          </div>
+        </div>
+      </ScrollAnimatedSection>
+
+          <ScrollAnimatedSection className="py-16 bg-white" delay={200}>
+        <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          {/* Left Image */}
+         <div className="relative w-full h-[600px] lg:h-[650px] overflow-hidden group">
+  <Image
+    src="https://i.pinimg.com/736x/f0/1b/f3/f01bf3a6d7bfd0697aecf1a1cb6295c5.jpg"
+    alt="About Us Illustration"
+    fill
+    className="object-contain transition-all duration-500 group-hover:scale-110 group-hover:brightness-110 group-hover:-translate-y-2 group-hover:shadow-2xl"
+  />
+</div>
+
+
+          {/* Right Content */}
+          <div className="text-left lg:pl-8">
+            <p className="text-[#4A70A9] text-xs sm:text-sm md:text-base font-semibold mb-3 sm:mb-4 uppercase tracking-wide">
+              OUR DASHBOARD
+            </p>
+            {/* <h2 className="mt-2 text-3xl lg:text-4xl font-semibold text-gray-800 tracking-tight">
+  We&apos;re Best In Service Provider
+</h2> */}
+            <h2 className="mt-2 text-3xl sm:text-3xl font-semibold tracking-wide drop-shadow-md font-serif text-gray-700">
+              Our system specifies in dashboard
+            </h2>
+
+            <p className="mt-4 text-lg text-gray-700 leading-relaxed">
+              Their expertise lies in integrating technology, data, and strategy to improve customer satisfaction and
+              loyalty while driving business growth. With the right CRM service provider, companies can gain deeper insights
+              into customer behavior, automate workflows, and enhance collaboration across teams, ensuring that every customer
+              interaction adds value and strengthens long-term partnerships.
+            </p>
+
+            <Link href="/user/about">
+              <button className="mt-6 px-6 py-3 rounded-lg font-semibold text-white bg-[#4A70A9] shadow-lg hover:opacity-90 transition cursor-pointer">
+                Dashboard
+              </button>
+            </Link>
+          </div>
+        </div>
+      </ScrollAnimatedSection>
+
+      <ScrollAnimatedSection delay={300}>
         <CardDetail />
       </ScrollAnimatedSection>
 
@@ -86,9 +168,9 @@ export default function UserHomePage() {
         <AppFeaturesPage />
       </ScrollAnimatedSection>
 
-      <ScrollAnimatedSection delay={400}>
+      {/* <ScrollAnimatedSection delay={400}>
         <WorkflowPage />
-      </ScrollAnimatedSection>
+      </ScrollAnimatedSection> */}
 
       <ScrollAnimatedSection delay={500}>
         <WallOfLove />

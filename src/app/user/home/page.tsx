@@ -78,17 +78,17 @@ export default function UserHomePage() {
         <ImageSectionPage />
       </ScrollAnimatedSection>
 
-       <ScrollAnimatedSection className="py-16 bg-white" delay={200}>
+      <ScrollAnimatedSection className="py-16 bg-white" delay={200}>
         <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           {/* Left Image */}
-         <div className="relative w-full h-[400px] lg:h-[450px] overflow-hidden group">
-  <Image
-    src="https://static.vecteezy.com/system/resources/previews/001/447/112/non_2x/dashboard-ui-admin-panel-design-vector.jpg"
-    alt="About Us Illustration"
-    fill
-    className="object-contain transition-all duration-500 group-hover:scale-110 group-hover:brightness-110 group-hover:-translate-y-2 group-hover:shadow-2xl"
-  />
-</div>
+          <div className="relative w-full h-[400px] lg:h-[450px] overflow-hidden group">
+            <Image
+              src="https://static.vecteezy.com/system/resources/previews/001/447/112/non_2x/dashboard-ui-admin-panel-design-vector.jpg"
+              alt="About Us Illustration"
+              fill
+              className="object-contain transition-all duration-500 group-hover:scale-110 group-hover:brightness-110 group-hover:-translate-y-2 group-hover:shadow-2xl"
+            />
+          </div>
 
 
           {/* Right Content */}
@@ -119,17 +119,17 @@ export default function UserHomePage() {
         </div>
       </ScrollAnimatedSection>
 
-          <ScrollAnimatedSection className="py-16 bg-white" delay={200}>
+      <ScrollAnimatedSection className="py-16 bg-white" delay={200}>
         <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           {/* Left Image */}
-         <div className="relative w-full h-[600px] lg:h-[650px] overflow-hidden group">
-  <Image
-    src="https://i.pinimg.com/736x/f0/1b/f3/f01bf3a6d7bfd0697aecf1a1cb6295c5.jpg"
-    alt="About Us Illustration"
-    fill
-    className="object-contain transition-all duration-500 group-hover:scale-110 group-hover:brightness-110 group-hover:-translate-y-2 group-hover:shadow-2xl"
-  />
-</div>
+          <div className="relative w-full h-[600px] lg:h-[650px] overflow-hidden group">
+            <Image
+              src="https://i.pinimg.com/736x/f0/1b/f3/f01bf3a6d7bfd0697aecf1a1cb6295c5.jpg"
+              alt="About Us Illustration"
+              fill
+              className="object-contain transition-all duration-500 group-hover:scale-110 group-hover:brightness-110 group-hover:-translate-y-2 group-hover:shadow-2xl"
+            />
+          </div>
 
 
           {/* Right Content */}

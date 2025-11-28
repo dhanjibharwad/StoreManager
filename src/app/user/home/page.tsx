@@ -83,7 +83,7 @@ export default function UserHomePage() {
           {/* Left Image */}
           <div className="relative w-full h-[400px] lg:h-[450px] overflow-hidden group">
             <Image
-              src="https://static.vecteezy.com/system/resources/previews/001/447/112/non_2x/dashboard-ui-admin-panel-design-vector.jpg"
+              src="https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/html5%20admin%20dashboard%20template%2C%20smarthr.webp?width=650&height=374&name=html5%20admin%20dashboard%20template%2C%20smarthr.webp"
               alt="About Us Illustration"
               fill
               className="object-contain transition-all duration-500 group-hover:scale-110 group-hover:brightness-110 group-hover:-translate-y-2 group-hover:shadow-2xl"
